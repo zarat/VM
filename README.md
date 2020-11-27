@@ -10,16 +10,6 @@ vm [binary]
 vm
 </pre>
 
-In realtime mode (will be removed soon) please only use digit numbers
-
-<pre>
-  mov ax 0x7e3 (2019)
-  mov bx 0x7c0 (1984)
-  mod ax bx
-  ldr ax
-  print
-</pre>
-
 You have 14 registers, each 32 bit
 
 # Registers
