@@ -19,6 +19,61 @@ You have 14 registers, each 32 bit
 * dx
 * r1 - r10
 
+First, a little example demonstrating strcat and strlen function from the c standard library.
+
+```Assembly
+; initial data, 2 strings from stdin
+push 100
+read
+push 101
+read
+
+; strcat and print them
+jmp strcat
+push 102
+write
+push 10
+printc
+
+; counter for strlen
+mov ax 0
+jmp strlen
+
+; print counter from strlen
+ldr ax
+print
+
+; done
+jmp end
+
+; c strcat function
+strcat:
+    push 0
+    push 101
+    gets
+    push 100
+    gets
+    si ax
+    ldr ax
+    push 102
+    puts
+    ret
+
+; c strlen function
+strlen_add:
+    add ax 1
+strlen:
+    push 102
+    ldr ax
+    ldm
+    push 0
+    eq 
+    jnz strlen_add
+    ret
+
+end:
+```
+
 # Instruction set
 * [mov](#mov)
 * [push](#push)
