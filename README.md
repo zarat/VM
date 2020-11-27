@@ -10,6 +10,13 @@ vm [binary]
 vm
 </pre>
 
+Commands in realtime mode:
+
+ * reg: display registers
+ * stack: display stack
+ * mem: display memory
+ * commands from the instruction set
+
 You have 14 registers, each 32 bit
 
 # Registers
