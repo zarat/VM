@@ -1,5 +1,5 @@
 # vm
-A virtual machine executing 32 bit bytecode.
+A 32 bit virtual machine executing bytecode.
 
 <pre>
 // compile and run a binary
