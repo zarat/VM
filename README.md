@@ -1,5 +1,5 @@
 # vm
-A virtual machine executing bytecode
+A virtual machine executing 32 bit bytecode.
 
 <pre>
 // compile and run a binary
@@ -82,6 +82,7 @@ end:
 ```
 
 # Instruction set
+
 * [mov](#mov)
 * [push](#push)
 * [pop](#pop)
