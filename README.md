@@ -5,9 +5,6 @@ A 32 bit virtual machine executing bytecode.
 // compile and run a binary
 as [assembly] [binary]
 vm [binary]
-
-// run in realtime mode
-vm
 </pre>
 
 # Registers
