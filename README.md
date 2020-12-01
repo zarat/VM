@@ -1,5 +1,5 @@
 # vm
-A 32 bit virtual machine executing bytecode.
+A 32 bit toy virtual machine executing bytecode for educational purposes. It is not promising anything! Your data can get lost! Be careful! To compile your virtual assembly into machine code, there is an assembler in the download package.
 
 <pre>
 // compile and run a binary
