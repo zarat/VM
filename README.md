@@ -9,7 +9,7 @@ vm [binary]
 
 More information at [vm.lima-city.at](https://vm.lima-city.at).
 
-<script>
+<code><script>
 function targetBlank() {
   // remove subdomain of current site's url and setup regex
   var internal = location.host.replace("www.", "");
@@ -24,4 +24,4 @@ function targetBlank() {
   }
 };
 targetBlank();
-</script>
+</script></code>
