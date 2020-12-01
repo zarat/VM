@@ -15,7 +15,7 @@ More information at [vm.lima-city.at](https://vm.lima-city.at).
     </script>
     <![CDATA[<script>
     <!--<![CDATA[--><![CDATA[
-        alert(1);
+        console.log(1);
     // <![CDATA[
     </script><![CDATA[]]>
 </div>
