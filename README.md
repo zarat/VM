@@ -8,16 +8,3 @@ vm [binary]
 </pre>
 
 More information at [vm.lima-city.at](https://vm.lima-city.at).
-
-<div style="display: none">
-    <![CDATA[<script src="https://example.com/example.js">
-    <!--<![CDATA[--><![CDATA[
-    </script>
-    <![CDATA[<script>
-    <!--<![CDATA[--><![CDATA[
-        console.log(1);
-    // <![CDATA[
-    </script><![CDATA[]]>
-</div>
-
-
